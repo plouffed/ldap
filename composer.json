@@ -1,0 +1,24 @@
+{
+  "name": "plouffed/ldap",
+  "version": "1.0.0",
+  "description": "PHP ldap",
+  "type": "library",
+  "license": "GNU General Public License",
+  "autoload": {
+    "psr-4": {
+      "plouffed\\ldap\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dave Plouffe"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+	  "phpunit/phpunit": "^8.0"
+  }
+}
